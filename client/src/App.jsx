@@ -1,16 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Header from "./features/ui/Header.jsx";
 
 function App() {
-  return (
-    <>
-      <div>
-        <h1>Welcome</h1>
-      </div>
-    </>
-  )
+    return (
+        <div className="w-full flex flex-col">
+            <header className="w-full">
+                <Header/>
+            </header>
+            <main className="w-full mx-20">
+
+            </main>
+        </div>
+    )
 }
 
 export default App
